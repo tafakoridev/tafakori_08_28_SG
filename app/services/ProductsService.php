@@ -2,7 +2,7 @@
 
 namespace app\Services;
 
-use app\Models\Product;
+use app\models\Product;
 
 class ProductsService
 {

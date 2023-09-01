@@ -1,7 +1,7 @@
 <?php
 namespace app\Services;
 
-use app\Models\ShoppingCart;
+use app\models\ShoppingCart;
 
 class ShoppingCartService
 {
