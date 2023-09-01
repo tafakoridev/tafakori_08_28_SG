@@ -8,7 +8,7 @@
                 <?php foreach ($carts as $carts) : ?>
                     <div id="item-<?= $carts['id'] ?>" class="col-4 c-pointer p-2 shadow bg-white m-2 column justify-content-center align-items-center relative">
                         <div class="absolute left-5 top-5" style="font-size: 10px;" onclick="select(<?= $carts['id'] ?>)" >select</div>
-                        <img class="img-50" src="/images/product.png" alt="product image">
+                        <img class="img-50" src="/public/images/product.png" alt="product image">
                         <h4><?= $carts['name']; ?></h4>
                         <span style="font-size: 12px;"><?= $carts['price']; ?> تومان</span>
                         <button class="small danger" onclick="removeFromCart(<?= $carts['id'] ?>)">
@@ -22,7 +22,7 @@
         <div class="row">
             <?php foreach ($products as $product) : ?>
                 <div class="col-4 c-pointer p-2 shadow bg-white m-2 column justify-content-center align-items-center">
-                    <img class="img-50" src="/images/product.png" alt="product image">
+                    <img class="img-50" src="/public/images/product.png" alt="product image">
                     <h4><a href="'/products/<?= $product['id'] ?>'"><?= $product['name']; ?></a></h4>
                     <span style="font-size: 12px;"><?= $product['price']; ?> تومان</span>
                     <button class="small" onclick="addToCart(<?= $product['id']; ?>)">
