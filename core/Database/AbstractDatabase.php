@@ -1,5 +1,5 @@
 <?php
-namespace Core\Database;
+namespace core\Database;
 
 abstract class AbstractDatabase {
     protected $connection;

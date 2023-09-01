@@ -1,6 +1,6 @@
 <?php
 
-namespace Core\Database;
+namespace core\Database;
 
 use PDO;
 // this model is just for mysql

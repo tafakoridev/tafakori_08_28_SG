@@ -1,5 +1,5 @@
 <?php
-namespace Core\Database;
+namespace core\Database;
 
 class MysqlDatabase extends AbstractDatabase {
     public function getConnection() {
