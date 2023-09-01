@@ -1,6 +1,6 @@
 <?php
 
-use Core\Route;
+use core\Route;
 
 Route::get('/', 'ProductsController@index');
 Route::get('/products/{id}', 'ProductsController@show');

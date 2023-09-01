@@ -2,7 +2,7 @@
 
 namespace App\Controllers;
 
-use Core\Controller;
+use core\Controller;
 use App\Services\ProductsService;
 use App\Services\ShoppingCartService;
 

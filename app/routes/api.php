@@ -1,6 +1,6 @@
 <?php
 
-use Core\Route;
+use core\Route;
 
 Route::post('/api/products', 'ProductsController@store');
 Route::post('/api/products/update', 'ProductsController@update');

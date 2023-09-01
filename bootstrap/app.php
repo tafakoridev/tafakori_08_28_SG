@@ -1,7 +1,7 @@
 <?php
 
 use Config\Env;
-use Core\Database\Model;
+use core\Database\Model;
 
 
 $env = new Env();
