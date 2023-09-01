@@ -38,7 +38,7 @@ class Route {
             if ($route['method'] === $requestMethod && self::uriMatches($route['uri'], $uri)) {
                 $matched = true;
                 [$controllerName, $methodName] = explode('@', $route['controllerMethod']);
-                $controllerClass = "App\\Controllers\\{$controllerName}";
+                $controllerClass = "app\\controllers\\{$controllerName}";
                 $controller = new $controllerClass();
                 $uriParams = self::extractUriParams($route['uri'], $uri);
                 $controller->$methodName(...$uriParams);
