@@ -1,6 +1,6 @@
 <?php
 
-use Config\Env;
+use config\Env;
 use core\Database\Model;
 
 
