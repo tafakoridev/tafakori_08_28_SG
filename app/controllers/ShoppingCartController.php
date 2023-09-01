@@ -3,8 +3,8 @@
 namespace App\Controllers;
 
 use core\Controller;
-use App\Services\ShoppingCartService;
-use App\Services\ProductsService;
+use app\services\ShoppingCartService;
+use app\services\ProductsService;
 
 class ShoppingCartController extends Controller
 {
